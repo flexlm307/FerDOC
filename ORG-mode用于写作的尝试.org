@@ -1,0 +1,34 @@
+* Section
+** Subsection
+- required by `flymake-lua`
+- install through OS package manager
+- 中午
+** Table
+|        | Apple | Pear | Banana |
+|--------+-------+------+--------|
+| Price  |     2 |    3 |      4 |
+| Weight |   2.5 |  3.5 |      2 |
+| Money  |       |      |        |
+** Picture
+- In the same folder have pic
+- Use tool to prepare the pic
+- use syntax [[]], middle is under
+- [[file:./pic.jpg]]
+ 
+** Export
+*** Shortcut
+- CTRL+c CTRL+e
+*** TEXT
+*** HTML
+*** TEX & PDF
+- All the text in the article is English, Export TEX and PDF at the same time, (have Red Frame)
+- Chinese, Export TEX, Change the header, than insert the code in another file have, export PDF
+*** RED Frame issue FIX
+- Use the code in another file
+* org-mode用于日常写作、文档整理
+** pandoc
+今天知道了一个工具是pandoc，可用于多种格式的相互转化。是从谢益辉的knitr的页面了解到的
+** org-mode的用法
+org-mode的用法在Section中已有示例，结合强大的emacs和vim的快捷键，在使用中是非常好用的（当然大部分功能还是不知道怎么用）
+** org-mode转化
+如果这份文档要在工作上发布doc格式，用org文档直接用pandoc转化没有成功。官方主页介绍是支持org输入的。后来试了一下将org导出为html，将html文件转化为doc，从目前的结果来看转化的效果还可以。
